@@ -12,13 +12,22 @@ public class offer {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
-		System.setProperty("webdriver.chrome.driver","C:\\Library\\chromedriver_win32\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver","C:\\Library\\chromedriver_win32\\chromedriver.exe");
 WebDriver driver = new ChromeDriver();
 driver.get("http://cognextech.com/");
 Actions a = new Actions(driver);
 a.moveToElement(driver.findElement(By.linkText("IT Course"))).build().perform();
+<<<<<<< HEAD
 System.out.println("Hello27");
+=======
+
+
+System.out.println("Hello12");
+
+
+
+>>>>>>> branch 'master' of https://github.com/saileshsarathi/FirstGithub
 	}
 
 }
+ 
