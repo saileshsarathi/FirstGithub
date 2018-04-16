@@ -11,6 +11,7 @@ public class git {
 	
  WebDriver driver;
 
+ public static int i;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -23,7 +24,13 @@ public class git {
 		Object b[] = ab.toArray();
 		driver.switchTo().window(b[0].toString());
 		System.out.println(b[0]);
+		
+		int i =10;
+		//System.out.println(j);
 	//	driver.switchTo().alert().accept();
+		
+		inheritance a = new inheritance();
+		a.sai();
 		
 		//Mouse hover 
 		
