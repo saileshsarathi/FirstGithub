@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [sai]">
+  <test name="sarathi(failed)">
+    <classes>
+      <class name="TestNG.Dependsonmethods">
+        <methods>
+          <include name="test"/>
+          <include name="beforeTest"/>
+          <include name="test1"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- TestNG.Dependsonmethods -->
+    </classes>
+  </test> <!-- sarathi(failed) -->
+</suite> <!-- Failed suite [sai] -->

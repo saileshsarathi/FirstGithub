@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="sai" duration-ms="45359" started-at="2017-12-16T21:07:35Z" finished-at="2017-12-16T21:08:21Z">
+    <groups>
+    </groups>
+    <test name="sarathi" duration-ms="45359" started-at="2017-12-16T21:07:35Z" finished-at="2017-12-16T21:08:21Z">
+      <class name="TestNG.NewTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG.NewTest@305fd85d]" name="beforeTest" is-config="true" duration-ms="27170" started-at="2017-12-16T16:07:35Z" finished-at="2017-12-16T16:08:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:TestNG.NewTest@305fd85d]" name="test" duration-ms="14653" started-at="2017-12-16T16:08:02Z" finished-at="2017-12-16T16:08:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNG.NewTest@305fd85d]" name="test1" duration-ms="3514" started-at="2017-12-16T16:08:17Z" finished-at="2017-12-16T16:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG.NewTest@305fd85d]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-12-16T16:08:21Z" finished-at="2017-12-16T16:08:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNG.NewTest -->
+    </test> <!-- sarathi -->
+  </suite> <!-- sai -->
+</testng-results>
